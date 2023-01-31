@@ -9,7 +9,7 @@ $port = '3307';
 
 $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName,$port);
 
-    if($conexao -> connect_errno)
+    /* if($conexao -> connect_errno)
     {
         echo "Erro";
     }
@@ -17,5 +17,5 @@ $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName,$port);
     {   
         echo "Conexão efetuada com sucesso ";
 
-    }
+    } */
 ?>
